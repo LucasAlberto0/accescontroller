@@ -5,6 +5,7 @@ import { PagesRoutingModule } from './pages-routing.module';
 import { CheckDepotComponent } from './check-depot/check-depot.component';
 import { RouterModule } from '@angular/router';
 import { FormsModule } from '@angular/forms';
+import { HeaderComponent } from '../components/header/header.component';
 
 
 @NgModule({
@@ -15,7 +16,8 @@ import { FormsModule } from '@angular/forms';
     CommonModule,
     FormsModule,
     PagesRoutingModule,
-    RouterModule
+    RouterModule,
+    HeaderComponent
   ],
 })
 export class PagesModule { }
