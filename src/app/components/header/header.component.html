@@ -8,7 +8,7 @@
                 <ul>
                     <li><a href="">HOME</a></li>
                     <li><a href="">EQUIPE</a></li>
-                    <button class="bg-green ml-1 py-2 px-4 rounded-xl">CONSULTAR</button>
+                    <button class="bg-green ml-1 py-2 px-4 rounded-xl" onclick="window.location.href='check-depot'">CONSULTAR</button>
                 </ul>
             </nav>
             <nav class="mobile transition_on">
@@ -22,7 +22,7 @@
                 <ul>
                     <li><a href="">Home</a></li>
                     <li><a href="">Equipe</a></li>
-                    <button class="mt-3 bg-green py-2 px-4 rounded-xl font-bold">Consultar</button>
+                    <button class="mt-3 bg-green py-2 px-4 rounded-xl font-bold" onclick="window.location.href='check-depot'">Consultar</button>
                 </ul>
             </div>
             <div class="fundo_menu mobile transition_on" [ngClass]="{'ativo': menuAtivo}" (click)="toggleMenu()"></div>

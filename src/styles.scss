@@ -21,3 +21,49 @@
 .bg-verde-escuro{
   background-color: #3b753e;
 }
+
+//Animações globais
+@keyframes slideInFromLeft {
+  from {
+    transform: translateX(-100%); 
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0); 
+    opacity: 1;
+  }
+}
+
+.al {
+  animation: slideInFromLeft 1s ease-in-out forwards;
+}
+
+@keyframes slideInFromUp {
+  from {
+    transform: translateY(-100%); 
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0); 
+    opacity: 1;
+  }
+}
+
+.aup {
+  animation: slideInFromUp 1s ease-in-out forwards;
+}
+
+@keyframes zoomIn {
+  from {
+      transform: scale(0.4);
+      opacity: 0;
+  }
+  to {
+      transform: scale(1);
+      opacity: 1;
+  }
+  }
+
+  .za {
+  animation: zoomIn 0.7s ease-in-out forwards;
+  }
