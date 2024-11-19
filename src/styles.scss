@@ -23,6 +23,11 @@
 }
 
 //Animações globais
+//al -> animação vindo da esquerda
+//aup -> animação vindo de cima
+//za -> animação zoom
+//zag -> animação zoom do gif
+
 @keyframes slideInFromLeft {
   from {
     transform: translateX(-100%); 
@@ -66,4 +71,19 @@
 
   .za {
   animation: zoomIn 0.7s ease-in-out forwards;
+  }
+
+@keyframes zoomInGif {
+  from {
+      transform: scale(0.2);
+      opacity: 0;
+  }
+  to {
+      transform: scale(0.8);
+      opacity: 1;
+  }
+  }
+
+  .zag {
+  animation: zoomInGif 1.2s ease-in-out forwards;
   }
