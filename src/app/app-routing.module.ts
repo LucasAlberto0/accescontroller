@@ -4,6 +4,7 @@ import { CheckDepotComponent } from './pages/check-depot/check-depot.component';
 import { DashboardComponent } from './pages/dashboard/dashboard.component';
 import { EntryPageComponent } from './pages/entry-page/entry-page.component';
 import { ExitPageComponent } from './pages/exit-page/exit-page.component';
+import { SuccessPageComponent } from './pages/success-page/success-page.component';
 
 const routes: Routes = [{
   path:'',
@@ -20,6 +21,10 @@ const routes: Routes = [{
 {
   path: 'exit',
   component: ExitPageComponent
+},
+{
+  path: 'success',
+  component: SuccessPageComponent
 }
 ];
 

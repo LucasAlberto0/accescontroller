@@ -17,7 +17,7 @@ import { HeaderComponent } from '../components/header/header.component';
     FormsModule,
     PagesRoutingModule,
     RouterModule,
-    HeaderComponent
+    HeaderComponent,
   ],
 })
 export class PagesModule { }
